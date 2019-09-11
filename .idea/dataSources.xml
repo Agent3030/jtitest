@@ -5,7 +5,11 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+<<<<<<< HEAD
+      <jdbc-url>jdbc:mysql://172.17.0.2:3306/jtitest</jdbc-url>
+=======
       <jdbc-url>jdbc:mysql://172.17.0.2.:3306/jtitest</jdbc-url>
+>>>>>>> 6fe1eee5e3eff5194ae52be3b45cc1005ff8ec47
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />

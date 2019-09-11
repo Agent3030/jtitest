@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+@extends('adminlte::page')
+
+@section('title', 'AdminLTE')
+
+@section('content_header')
+    <h1>Dashboard</h1>
+@stop
+
+@section('content')
+    <p>You are logged in!</p>
+@stop
+=======
 @extends('layouts.app')
 
 @section('content')
@@ -21,3 +34,4 @@
     </div>
 </div>
 @endsection
+>>>>>>> 6fe1eee5e3eff5194ae52be3b45cc1005ff8ec47

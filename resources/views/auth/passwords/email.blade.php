@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@extends('adminlte::passwords.email')
+=======
 @extends('layouts.app')
 
 @section('content')
@@ -45,3 +48,4 @@
     </div>
 </div>
 @endsection
+>>>>>>> 6fe1eee5e3eff5194ae52be3b45cc1005ff8ec47
