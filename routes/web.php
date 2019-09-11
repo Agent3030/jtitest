@@ -14,10 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Route::resources([
     'companies' => 'CompanyController',
     'posts' => 'PostController'
 ]);
+=======
+>>>>>>> 6fe1eee5e3eff5194ae52be3b45cc1005ff8ec47
 
 Auth::routes();
 

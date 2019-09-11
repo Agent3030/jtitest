@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@jtitest" uuid="abbd5d2c-0e72-46c7-8210-65528e478f47">
+    <data-source source="LOCAL" name="jtitest@172.17.0.2." uuid="09f4cc5a-9a03-49bf-9f20-3237148dd060">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+<<<<<<< HEAD
       <jdbc-url>jdbc:mysql://172.17.0.2:3306/jtitest</jdbc-url>
+=======
+      <jdbc-url>jdbc:mysql://172.17.0.2.:3306/jtitest</jdbc-url>
+>>>>>>> 6fe1eee5e3eff5194ae52be3b45cc1005ff8ec47
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
