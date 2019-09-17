@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 @extends('adminlte::register')
-=======
-@extends('layouts.app')
+
 
 @section('content')
 <div class="container">
@@ -64,13 +63,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
-                            </div>
-                        </div>
+
                     </form>
                 </div>
             </div>
