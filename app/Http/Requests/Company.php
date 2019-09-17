@@ -33,7 +33,7 @@ class Company extends FormRequest
                'email' => ['email', 'min:3', 'max:255'],
                'website' => ['url', 'min:3', 'max:255'],
                'logo'=>['image', 'dimensions:min_width=100,min_height=200'],
-               'id' => ['number'],
+               'id' => ['numeric'],
            ];
         } else {
             $rules=[

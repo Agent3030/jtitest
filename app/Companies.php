@@ -107,5 +107,8 @@ class Companies extends Model
     public function getName(){
         return $this->name;
     }
+    public function employees(){
+        return $this->HasMany('App\Employee', 'company_id');
+    }
 
 }

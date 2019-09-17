@@ -9,14 +9,14 @@
 <a href="companies/create" class="btn-lg btn-primary">Create New Company</a>
 <br/>
 <br/>
+
 <table id="companies" class="table table-bordered">
     <thead>
-    <th>Name</th>
+        <th>Id</th>
+        <th>Name</th>
         <th>Email</th>
         <th>logo</th>
         <th>website</th>
-
-
         <th>Update Action</th>
     <th>delete Action</th>
     </th>
@@ -24,9 +24,10 @@
     <tbody>
     @foreach ($companies as $company)
        <tr>
-        <td> {{ $company->name }}</td>
+           <td>{{$company->id}}</td>
+        <td><a href="/companies/{{$company->id}}"> {{ $company->name }}</a></td>
         <td> {{ $company->email }}</td>
-        <td> <img src="{{asset($company->logo)}}" alt="'"></td>
+        <td> <img src="{{asset($company->logo)}}" alt=""class="img img-responsive" width="100" height="100"></td>
         <td> {{ $company->website }}</td>
         <td><a href="companies/{{$company->id}}/edit" class="btn-lg btn-primary"><i class="glyphicon glyphicon-pencil"></i></a>
             </td>
@@ -40,6 +41,7 @@
     </tbody>
 </table>
 {{ $companies->links() }}
+
 
 
 

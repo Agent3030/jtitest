@@ -11,16 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-<<<<<<< HEAD
+Route::get('/', 'Auth\LoginController@login');
+
+
 Route::resources([
     'companies' => 'CompanyController',
-    'posts' => 'PostController'
+    'employees' => 'EmployeeController'
 ]);
-=======
->>>>>>> 6fe1eee5e3eff5194ae52be3b45cc1005ff8ec47
+
 
 Auth::routes();
 
